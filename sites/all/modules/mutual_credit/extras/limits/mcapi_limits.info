@@ -1,0 +1,11 @@
+; $Id:
+name = Limit balances
+description = Min and max balance limits per user and per currency
+package = Community Accounting
+core = 7.x
+
+dependencies[] = mcapi
+php 5.3
+
+files[] = views/mcapi_limits_views.inc
+files[] = views/views_handler_field_mcapi_limits.inc

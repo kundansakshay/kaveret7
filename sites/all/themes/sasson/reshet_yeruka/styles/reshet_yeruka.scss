@@ -1,0 +1,147 @@
+/* #############################################
+ * ##### Sasson - advanced drupal theming. #####
+ * #############################################
+ *   
+ * SITENAME theme main stylesheet.
+ * 
+ *  Index
+ *  -----------
+ *  1. Imports and Definitions
+ *  2. General Sitewide Styles
+ *    -- Layout
+ *    -- General Styles
+ *    -- Typography
+ *    -- Links 
+ *    -- Header
+ *    -- Sidebars
+ *    -- Footer
+ *  3. Front Page
+ *  4. Inner Pages
+ *  5. Forms
+ * 
+ */
+
+/*-----------------------------------------------
+           Imports and Definitions
+-----------------------------------------------*/
+// @import "compass/css3";           // Uncomment to use CSS3 mixins (http://compass-style.org/reference/compass/css3/)
+// @import "960/grid";               // Uncomment to use 960gs mixins (see Sasson's layout partials for examples)
+// @import "grid/gridy";             // Uncomment to use gridy mixins (the layout system powering Sasson v3.x)
+// @import "partials/mixins";        // Uncomment to call your own mixins partial (check your /partials directory)
+// @import "sprites/smart";          // Uncomment to call your 'smart' sprite (check your /images/sprites directory)
+
+/*-----------------------------------------------
+          General Sitewide Styles
+-----------------------------------------------*/
+/* -----  Layout  ----- */
+
+/* -----  General Styles (Colors, Backgrounds etc.)  ----- */
+
+/* -----  Typography  ----- */
+
+/* -----  Links  ----- */
+
+/* -----  Header  ----- */
+
+#header {
+  float: none;
+  width: 960px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#block-system-main-menu {
+  float: left; /* RTL */
+  ul.menu li {
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    list-style: none outside none;
+    background: -moz-linear-gradient(top, #f1f6e2 0%, #dee5c4 100%);
+    background: -webkit-linear-gradient(top, #f1f6e2 0%, #dee5c4 100%);
+    background: -o-linear-gradient(top, #f1f6e2 0%, #dee5c4 100%);
+    background: -ms-linear-gradient(top, #f1f6e2 0%, #dee5c4 100%);
+  }
+}
+
+#block-locale-language {
+  float: right; /* RTL */
+  ul li {
+    list-style: none outside none;
+    display: inline;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    list-style: none outside none;
+    background: #f0f0f0;
+  }
+  li.active {
+    display: none;
+    visibility: hidden; 
+  }
+}
+
+
+/* -----  Featured ----- */
+
+#featured {
+  float: none;
+  width: 960px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* -----  Sidebars  ----- */
+
+/* -----  Footer  ----- */
+
+#footer {
+  color: white;
+  background: #5aa3c4;
+
+  float: none;
+  width: 960px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.region-footer {
+  text-align: center;
+}
+
+#block-menu-menu-links-on-footer {
+  .block-title {
+    display: none;
+  }
+  
+  ul.menu {
+    text-align:center;
+    padding: 0px;
+    li {
+      list-style: none outside none;
+      display: inline;
+      a.active {
+        color: white;
+      }
+      a:visited {
+        color: white;
+      }
+    }
+  }
+}
+
+/*-----------------------------------------------
+                 Front Page
+-----------------------------------------------*/
+
+/*-----------------------------------------------
+                 Inner Pages
+-----------------------------------------------*/
+
+/*-----------------------------------------------
+                   Forms
+-----------------------------------------------*/
+
